@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/homepage.css">
+        <title>Eccommerce BackEND Template</title>
+    </head>
+    <body>
+        <h1>My First Eccomerce App</h1>
+        <div class="main__sections">
+            <h2>Name your Store</h2>
+            <div class="main__sections-createStore">
+                <form method="post" action="/ecommerce">
+                    <input type="text" placeholder="Ecommerce Name" name="name" required />
+                    <button type="submit">Create your Store</button>
+                </form>
+            </div>
+            <div class="main__sections-createUser">
+                <form method="post" action="/user">
+                    <input type="text" placeholder="Type Username" name="username" required />
+                    <input type="email" placeholder="Type your Email" name="email" required />
+                    <button type="submit">Create User</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="main__stores">
+            #{stores}
+        </div>
+
+    </body>
+</html>

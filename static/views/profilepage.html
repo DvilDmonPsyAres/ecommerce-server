@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/css/profilepage.css">
+        <title>#{ecommerceName}</title>
+    </head>
+    <body>
+        <h1>Welcome to #{ecommerceName} Admin Panel</h1>
+        <div class="main">
+            <h2>Add Products</h2>
+            <div class="main__section">
+                <form method="post" action="/addItems">
+                    <input type="text" placeholder="Product Name" name="name" required />
+                    <input type="number" placeholder="Product Price" name="price" step="0.01" required />
+                    <input type="text" placeholder="Categorie" name="categorie" required />
+                    <button type="submit">Add Product</button>
+                </form>
+            </div>
+            <div class="title__section">
+                <h2 class="title__h2">Your Products</h2>
+            </div>
+            <div class="item__section">
+                #{ecommerceItems}
+            </div>
+        </div>
+
+    </body>
+</html>

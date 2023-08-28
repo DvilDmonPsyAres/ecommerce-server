@@ -1,0 +1,53 @@
+.main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section{
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 0 5rem;
+    margin-bottom: 2rem;
+}
+
+.item__section {
+    background-color: beige;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.items__section-item {
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+.item__buttons-store{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 1rem;
+}
+
+.item__buttons-store>button{
+    margin: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.item__buttons-store>button:hover{
+    background-color: black;
+    color: antiquewhite;
+
+
+}
+
+.item__buttons-profile{
+    display: none;
+}

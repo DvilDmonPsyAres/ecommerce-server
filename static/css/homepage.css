@@ -1,0 +1,22 @@
+.main__sections{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__sections-createStore{
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 0 5rem;
+}
+.main__sections-createUser{
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 2rem;
+    border-radius: 25px;
+    margin: 1rem 5rem;
+}
